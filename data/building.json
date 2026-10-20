@@ -1,0 +1,44 @@
+{
+  "project": "永安・長壽｜自建住宅概念設計",
+  "version": "1.0.0",
+  "disclaimer": "純展示之假設基地及配置，不可作為建築或法規依據",
+  "lot": {"width": 12, "depth": 18, "units": "m"},
+  "building": {"width": 10.6, "depth": 14.4, "floorHeight": 3.2, "floors": 5},
+  "entrances": {"front": "永安街", "vehicle": "長壽街"},
+  "parking": {"cars": 2, "scooters": 3},
+  "floors": [
+    {"id": 1, "title": "1F｜車庫與迎賓", "subtitle": "兩部汽車・三部機車・玄關", "rooms": [
+      {"id": "f1a", "name": "雙車位車庫", "type": "garage", "x": 0, "z": 0, "w": 7.1, "d": 9.1},
+      {"id": "f1b", "name": "迎賓玄關", "type": "hall", "x": 7.1, "z": 0, "w": 3.5, "d": 4.8},
+      {"id": "f1c", "name": "樓梯與電梯預留", "type": "stairs", "x": 7.1, "z": 4.8, "w": 3.5, "d": 4.3},
+      {"id": "f1d", "name": "儲藏與機車區", "type": "utility", "x": 0, "z": 9.1, "w": 7.1, "d": 5.3},
+      {"id": "f1e", "name": "工作間", "type": "study", "x": 7.1, "z": 9.1, "w": 3.5, "d": 5.3}
+    ]},
+    {"id": 2, "title": "2F｜家人共享", "subtitle": "客廳・餐廳・廚房・陽台", "rooms": [
+      {"id": "f2a", "name": "客廳", "type": "living", "x": 0, "z": 0, "w": 7.0, "d": 8.0},
+      {"id": "f2b", "name": "樓梯電梯", "type": "stairs", "x": 7.0, "z": 0, "w": 3.6, "d": 5.0},
+      {"id": "f2c", "name": "衛浴", "type": "bath", "x": 7.0, "z": 5.0, "w": 3.6, "d": 3.0},
+      {"id": "f2d", "name": "開放式餐廚", "type": "kitchen", "x": 0, "z": 8.0, "w": 7.0, "d": 6.4},
+      {"id": "f2e", "name": "生活陽台", "type": "balcony", "x": 7.0, "z": 8.0, "w": 3.6, "d": 6.4}
+    ]},
+    {"id": 3, "title": "3F｜主要臥室", "subtitle": "主臥・兩間兒童房", "rooms": [
+      {"id": "f3a", "name": "主臥室", "type": "bedroom", "x": 0, "z": 0, "w": 6.8, "d": 7.6},
+      {"id": "f3b", "name": "樓梯電梯", "type": "stairs", "x": 6.8, "z": 0, "w": 3.8, "d": 5.0},
+      {"id": "f3c", "name": "主衛浴", "type": "bath", "x": 6.8, "z": 5.0, "w": 3.8, "d": 2.6},
+      {"id": "f3d", "name": "兒童房 A", "type": "bedroom", "x": 0, "z": 7.6, "w": 5.3, "d": 6.8},
+      {"id": "f3e", "name": "兒童房 B", "type": "bedroom", "x": 5.3, "z": 7.6, "w": 5.3, "d": 6.8}
+    ]},
+    {"id": 4, "title": "4F｜臥室與書房", "subtitle": "臥室四間・共用衛浴", "rooms": [
+      {"id": "f4a", "name": "臥室 4", "type": "bedroom", "x": 0, "z": 0, "w": 5.4, "d": 6.9},
+      {"id": "f4b", "name": "臥室 5", "type": "bedroom", "x": 5.4, "z": 0, "w": 5.2, "d": 6.9},
+      {"id": "f4c", "name": "臥室 6", "type": "bedroom", "x": 0, "z": 6.9, "w": 5.4, "d": 7.5},
+      {"id": "f4d", "name": "臥室 7", "type": "bedroom", "x": 5.4, "z": 6.9, "w": 5.2, "d": 5.2},
+      {"id": "f4e", "name": "衛浴", "type": "bath", "x": 5.4, "z": 12.1, "w": 5.2, "d": 2.3}
+    ]},
+    {"id": 5, "title": "5F｜休閒與彈性空間", "subtitle": "家庭活動・茶室・空中花園", "rooms": [
+      {"id": "f5a", "name": "家庭活動室", "type": "living", "x": 0, "z": 0, "w": 7.0, "d": 8.0},
+      {"id": "f5b", "name": "茶室", "type": "study", "x": 7.0, "z": 0, "w": 3.6, "d": 8.0},
+      {"id": "f5c", "name": "露台花園", "type": "garden", "x": 0, "z": 8.0, "w": 10.6, "d": 6.4}
+    ]}
+  ]
+}
